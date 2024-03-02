@@ -1,0 +1,39 @@
+
+    // Tipos primitivos do Kotlin
+
+    /*
+    Observação:
+        Não é necessário definir o tipo
+        da várivel nessa linguagem. Mas
+        caso tenha a necessidade, também
+        é possível.
+
+    Tipos:
+    * String
+    * byte
+    * int
+    * long
+    * boolean
+    * double
+    * float
+    *
+    * EXEMPLOS:
+    * */
+
+    val nome: String = "Darley Leal dos Santos"
+    val idade: Byte = 25
+    val anoNascimento: Int = 1998
+    val exemploBoolean: Boolean = false
+    val exemploLong: Long = 255555555555555555
+    val exemploDouble: Double = 1057.59
+    val exemploFloat: Float = 1023.5252F
+
+    println(buildString {
+        append(nome)
+        append("\n${idade}")
+        append("\n${anoNascimento}")
+        append("\n${exemploLong}")
+        append("\n${exemploBoolean}")
+        append("\n${exemploDouble}")
+        append("\n${exemploFloat}")
+    })
