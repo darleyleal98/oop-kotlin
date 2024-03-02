@@ -1,0 +1,16 @@
+Aula 1:
+
+fun main() {
+
+    // Variavel mutavel -> var
+    // Variavel imutavel -> val
+
+    // Nos exemplos a baixo amabas as variaveis não podem
+    // ter seu valor alterado, caso tente uma erro ocorre
+    // para aterar o valor deve se mudar de val para var.
+
+    val nome = "Darley"
+    val curso = "Engenharia de Software"
+
+    println("Meu nome é ${nome} e eu estudo ${curso}")
+}
