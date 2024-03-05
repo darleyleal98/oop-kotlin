@@ -1,0 +1,21 @@
+    val precoDosProdutosUm = arrayOf(
+        BigDecimal("1.99"), BigDecimal("100.50"),
+            BigDecimal("21.99"), BigDecimal(("10.99"))
+    )
+
+    val precoDosProdutosDois = arrayOf(
+        BigDecimal("1.99"), BigDecimal("100.50"),
+        BigDecimal("21.99"), BigDecimal(("10.99"))
+    )
+
+    val precoDosProdutosTres = arrayOf(
+        BigDecimal("1.99"), BigDecimal("100.50"),
+        BigDecimal("21.99"), BigDecimal(("10.99"))
+    )
+    val valores = Structured.Produto()
+
+    val resultado = valores.somarPrecoDosProdutos(precoDosProdutosUm,
+                                                  precoDosProdutosDois,
+                                                  precoDosProdutosTres)
+
+    println("O preço dos produtos é: R$ ${resultado.toString()}")

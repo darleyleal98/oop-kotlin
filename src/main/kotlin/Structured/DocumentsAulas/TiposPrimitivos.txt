@@ -3,6 +3,7 @@
 
     /*
     Observação:
+
         Não é necessário definir o tipo
         da várivel nessa linguagem. Mas
         caso tenha a necessidade, também

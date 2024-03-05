@@ -1,0 +1,16 @@
+fun main() {
+
+    val listaDeCompras = arrayOf("Arroz", "Feijão", "Iogurte",
+                                 "Granola", "Queijo Minas", "Frango",
+                                 "Whey", "Creatina", "Glutamina")
+    var increment = 0
+
+    try {
+        while (listaDeCompras.isNotEmpty()){
+            println("${listaDeCompras[increment++]} está no indíce: $increment")
+        }
+    }
+    catch (excepetion: ArrayIndexOutOfBoundsException) {
+        println("\nFim da lista de compras.")
+    }
+}
